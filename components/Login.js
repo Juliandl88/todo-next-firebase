@@ -22,7 +22,7 @@ export default function Login() {
         value={email} 
         onChange={(e)=>setEmail(e.target.value)}
         type="text"
-        placeholder="Enter your email"
+        placeholder="Enter your email..."
         className="outline-none duration-300 border-b-2 border-solid border white focus:border-cyan-300 text-slate-900 p-2 w-full max-w-[40ch]"
       />
       <input
