@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='fixed bottom-0 w-full left-0 bg-green-300'>Footer</div>
+    <div className='flex justify-center items-center gap-5 py-3'>
+      <a href="./">
+        <i className="fa-brands fa-instagram duration-300 hover:opacity-30 hover:scale-150 cursor-pointer"></i>
+      </a>
+      <i className="fa-brands fa-linkedin duration-300 hover:opacity-30 hover:scale-150 cursor-pointer"></i>
+      <i className="fa-brands fa-github-alt duration-300 hover:opacity-30 hover:scale-150 cursor-pointer"></i>
+    </div>
   )
 }
