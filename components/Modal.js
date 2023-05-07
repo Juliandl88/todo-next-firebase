@@ -27,5 +27,6 @@ export default function Modal(props) {
             </div>
         </div>,
         _document.getElementById('portal')
+        
     )
 }
